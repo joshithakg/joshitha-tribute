@@ -3,12 +3,62 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>My Title</title>
+    <title>Joshitha's Books</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/joshitha.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
 </head>
+
 <body>
-    My Website
+    <header class="header">
+        <div class="header-1">
+            <a href="#" class="logo">
+                <i class="fas fa-book"></i> Joshitha's Books <i class="fas fa-book"></i>
+            </a>
+
+            <form action="" class="search-form">
+                <input type="search" name="" placeholder="Search.." id="search-box">
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+
+            <div class="icons">
+                <div id="search-btn" class="fas fa-search"></div>
+                <a href="#cart" class="fas fa-shopping-cart"></a>
+                <div id="login-btn" class="fas fa-user"></div>
+            </div>
+        </div>
+
+        <div class="header-2">
+            <nav class="navbar">
+                <a href="#halloween">Halloween</a>
+                <a href="#best">Best sellers</a>
+                <a href="#teens">Teens & YA</a>
+                <a href="#kids">Kids</a>
+            
+            </nav>
+        </div>
+    </header>
+
+    <div class="login-form-container">
+        <div id="close-login-btn" class="fas fa-times"></div>
+
+        <form action="">
+            <h3>Sign in</h3>
+            <span>User name</span>
+            <input type="email" name="" class="box" placeholder="Enter your email" id="">
+            <span>Password</span>
+            <input type="password" name="" class="box" placeholder="Enter the password" id="">
+            <div class="checkbox">
+                <input type="checkbox" name="" id="remember-me">
+                <lable for="remember-me">Remember me</lable>
+            </div>
+            <input type="submit" value="Sign in" class="btn">
+            <p>Forgot password? <a href="#">click here</a></p>
+            <p>Don't have an account? <a href="#">sign up here</a></p>
+        
+        </form>
+    
+    </div>
+<script src="js/joshitha.js"></script> 
 </body>
 </html>
