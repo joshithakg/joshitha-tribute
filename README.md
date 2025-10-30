@@ -27,10 +27,6 @@ Design features:
 - Site Navigation links at the bottom
 - Social Media icons to navigate to external websites
 - Shopping cart page to demonstrate items added with quantity, each line item price and a total and a delete option for each 
-- Latest Event
-There is a timer and when the time ends it displays the player’s final score along with an message.
-
-The goal is simple: catch as many toppings as possible before time runs out, and aim for the highest score possible. 
 
 ### Why I Made This Project
 
@@ -113,5 +109,4 @@ That's this file.
 
 [![Athena Award Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Faward.athena.hackclub.com%2Fapi%2Fbadge)](https://award.athena.hackclub.com?utm_source=readme)
 
-This project had been submitted to Athena Award (Kudos to Girls Who Code for helping me throughout the process!). To know more, click on the badge above!
 
