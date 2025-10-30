@@ -14,6 +14,16 @@ document.querySelector('#close-login-btn').onclick = () =>{
   loginForm.classList.remove('active');
 }
 
+let feedbackForm = document.querySelector('.feedback-form-container');
+
+document.querySelector('#feedback-btn').onclick = () =>{
+  feedbackForm.classList.toggle('active');
+}
+
+document.querySelector('#close-feedback-btn').onclick = () =>{
+  feedbackForm.classList.remove('active');
+}
+
 window.onscroll = () =>{
 
   searchForm.classList.remove('active');

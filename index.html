@@ -24,20 +24,20 @@
 
             <div class="icons">
                 <div id="search-btn" class="fas fa-search"></div>
-                <a href="#cart" class="fas fa-shopping-cart"></a>
+                <a href="./cart.html" class="fas fa-shopping-cart"></a>
                 <div id="login-btn" class="fas fa-user"></div>
             </div>
         </div>
 
         <div class="header-2">
             <nav class="navbar">
+                <a href="./index.html">Home</a>
                 <a href="#halloween">Halloween</a>
                 <a href="#featured">Best sellers</a>
                 <a href="#arrivals">Category</a>
                 <a href="#deal">Deals</a>
                 <a href="#reviews">Reviews</a>
                 <a href="#blogs">Feedback</a>
-            
             </nav>
         </div>
     </header>
@@ -58,9 +58,24 @@
             <input type="submit" value="Sign in" class="btn">
             <p>Forgot password? <a href="#">click here</a></p>
             <p>Don't have an account? <a href="#">sign up here</a></p>
-        
         </form>
-    
+    </div>
+
+    <div class="feedback-form-container">
+        <div id="close-feedback-btn" class="fas fa-times"></div>
+        <form action="">
+            <h3>Feedback</h3>
+            <span>First name</span>
+            <input type="text" name="" class="box" placeholder="Enter your first name" id="fname">
+            <span>Last name</span>
+            <input type="text" name="" class="box" placeholder="Enter your last name" id="lname">
+            <span>Email</span>
+            <input type="email" name="" class="box" placeholder="Enter your email" id="email">
+            <span>Feedback</span>
+            <textarea name="" class="box" placeholder="Enter your Feedback" id="feedback"></textarea>
+            <input type="submit" value="Sign in" class="btn">
+           
+        </form>
     </div>
 
     <section class="home" id="halloween">
@@ -379,10 +394,12 @@
         <h1 class="heading"><span>Feedback</span></h1>
 
         <section class="newsletter">
+           <div id="feedback-btn" class="fas fa-feedback"></div>
             <form action="">
                 <h3>Give your feedback here...</h3>
                 <a href="#feedback" class="btn">Feedback</a>
             </form>
+            
         </section>
     </section>
 
@@ -454,7 +471,6 @@
 
         <div class="credit"> Created by <span>Joshitha Kalyani Govarthanan </span>Copyright&copy;2025 All rights reserved!</div>
     </section>
-
 
 <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"/></script> 
 <script src="js/joshitha.js"></script> 
