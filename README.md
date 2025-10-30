@@ -79,6 +79,16 @@ If I continue working on this project, I would like to add:
 
 This project taught me a lot about how effecively I can design a website. There are quite a lot of libraries available that we can make use but it is essential we understand the concepts and how to use them efficiently.
 
+### Screenshots
+
+<img width="955" height="427" alt="image" src="https://github.com/user-attachments/assets/a1ee419f-d379-45d8-b397-7661c1e5aa0d" />
+<img width="919" height="498" alt="image" src="https://github.com/user-attachments/assets/3a8227b8-89e0-489e-9456-143689252d08" />
+<img width="872" height="483" alt="image" src="https://github.com/user-attachments/assets/a44f4879-898c-48fb-b555-09264d2d187a" />
+<img width="806" height="415" alt="image" src="https://github.com/user-attachments/assets/82c74cb2-11cf-458c-9bbf-22a158c9396d" />
+<img width="932" height="445" alt="image" src="https://github.com/user-attachments/assets/c65b3443-006f-4846-a1d7-176be607fcb4" />
+<img width="857" height="499" alt="image" src="https://github.com/user-attachments/assets/ae090e11-4a82-4b6d-8f9e-3745e97952a7" />
+
+
 ## File Overview
 
 ### joshitha.css
